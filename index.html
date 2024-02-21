@@ -5,147 +5,90 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
-    <title>Bootstrap demo</title>
+    <title>
+        Bootstrap demo
+    </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 </head>
 
 <body id="home">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+    <section>
+        <div class="row mt-4 justify-content-center">
+
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                    <div class="jumbotron text-center">
+                        <img src="img/fotoriza.PNG" width="200" class="rounded-circle img-thumbnail" />
+                        <h1 class="display-4">
+                            Riza Agustin
+                        </h1>
+                        <p class="lead">
+                            Junior Programmer
+                        </p>
+                    </div>
+                    <a href="https://github.com/rizaagustin?tab=repositories" type="button" class="btn btn-primary btn-block m-1">
+                        <i class="fab fa-whatsapp"></i> Github
+                    </a>
+                    <a href="https://wa.me/6289652078366" type="button" class="btn btn-primary btn-block m-1">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-7 mt-2">
+                <div class="card">
+                    <!-- <div class="card-header">Quote</div> -->
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <h3 class="">Tentang Saya</h3>
+                            <p>
+                                Nama saya Riza Agustin. Saya seorang programmer yang berpengalaman selama lebih dari 3 tahun. Memiliki kemampuan mengelola dan menguasai bahasa pemrograman PHP, Javascipt, Mysql dan Framework Laravel dan Codeigniter 3.
+                            </p>
+                            <h3 class="">Project</h3>
+                            <div class="row justify-content-center text-left">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://source.unsplash.com/500x400?hospital" class="card-img-top" alt="project1" />
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Skringin Kesehatan Jiwa
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://source.unsplash.com/500x400?blog" class="card-img-top" alt="project1" />
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Website Blog Post
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://source.unsplash.com/500x400?building" class="card-img-top" alt="project1" />
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Sistem Informasi Kepegawaian
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-
+    </section>
     <!-- Jumbotron -->
-    <div class="jumbotron text-center">
-        <img src="img/fotoriza.PNG" width="200" class="rounded-circle img-thumbnail" />
-        <h1 class="display-4">Riza Agustin</h1>
-        <p class="lead">Junior Programmer</p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffff"
-          fill-opacity="1"
-          d="M0,96L80,85.3C160,75,320,53,480,64C640,75,800,117,960,128C1120,139,1280,117,1360,106.7L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        ></path>
-      </svg>
-    </div>
-    <!-- Jumbotron -->
 
-    <!-- about -->
-    <section id="about">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col">
-                    <h2>About Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad in earum deserunt ut asperiores illo beatae expedita, amet quam debitis?</p>
-                </div>
-                <div class="col-md-4">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, consequatur similique. A sunt minima, aliquam voluptatum accusamus, minus deserunt, in sint sed aut praesentium! Ipsum.</p>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,256L16,218.7C32,181,64,107,96,96C128,85,160,139,192,154.7C224,171,256,149,288,144C320,139,352,149,384,138.7C416,128,448,96,480,112C512,128,544,192,576,192C608,192,640,128,672,117.3C704,107,736,149,768,181.3C800,213,832,235,864,250.7C896,267,928,277,960,261.3C992,245,1024,203,1056,192C1088,181,1120,203,1152,197.3C1184,192,1216,160,1248,170.7C1280,181,1312,235,1344,229.3C1376,224,1408,160,1424,128L1440,96L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z"></path></svg>
-        </svg>
-    </section>
-    <!-- about -->
-
-    <!-- Project -->
-    <section id="projects">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>My Projects</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/foto1.jpg" class="card-img-top" alt="project1" />
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/foto1.jpg" class="card-img-top" alt="project1" />
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/foto1.jpg" class="card-img-top" alt="project1" />
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,85.3C384,75,480,85,576,122.7C672,160,768,224,864,224C960,224,1056,160,1152,144C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- Project -->
-
-    <!-- Contact -->
-    <section id="contact">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col">
-                    <h2>Contact Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form>
-                        <div class="form-group mb-3">
-                            <label for="name">Nama Lengkap</label>
-                            <input type="name" class="form-control" id="name" aria-describedby="name">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="pesan">Pesan</label>
-                            <textarea class="form-control" id="pesan" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,229.3C384,224,480,160,576,160C672,160,768,224,864,218.7C960,213,1056,139,1152,128C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-primary pb-5">
-        <p class="text-center text-white fw-bold">Created with Riza Agustin</p>
-    </footer>
+    <!-- <footer class="bg-primary pb-5">
+      <p class="text-center text-white fw-bold">Created with Riza Agustin</p>
+    </footer> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
