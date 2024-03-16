@@ -4,92 +4,128 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <title>
-        Bootstrap demo
-    </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+        #header {
+            /* background-image: url('img/laptop.jpg'); */
+            background-image: url('https://image.web.id/images/bg-hero-homepage.jpg');
+            /* Ganti path/to/your/image.jpg dengan path gambar Anda */
+            background-size: cover;
+            /* Agar gambar latar belakang menutupi seluruh area section */
+            background-position: center center;
+            /* Posisi gambar latar belakang di tengah section */
+            padding: 50px 0;
+            /* Sesuaikan padding sesuai kebutuhan */
+        }
+    </style>
+    <title>Riza Agustin</title>
 </head>
 
 <body id="home">
-    <section>
-        <div class="row mt-1 justify-content-center">
-
-            <div class="col-md-4 mt-2">
-                <div class="card">
-                    <div class="jumbotron text-center">
-                        <img src="img/fotoriza.PNG" width="200" class="rounded-circle img-thumbnail" />
-                        <h1 class="display-4">
-                            Riza Agustin
-                        </h1>
-                        <p class="lead">
-                            Junior Programmer
-                        </p>
-                    </div>
-                    <a href="https://github.com/rizaagustin?tab=repositories" type="button" class="btn btn-primary btn-block m-1">
-                        <i class="fab fa-whatsapp"></i> Github
-                    </a>
-                    <a href="https://wa.me/6289652078366" type="button" class="btn btn-primary btn-block m-1">
-                        <i class="fab fa-whatsapp"></i> WhatsApp
-                    </a>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Riza Agustin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Portofolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Blog</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
 
-            <div class="col-md-7 mt-2">
-                <div class="card">
-                    <!-- <div class="card-header">Quote</div> -->
-                    <div class="card-body">
-                        <blockquote class="blockquote mb-0">
-                            <h3 class="">Tentang Saya</h3>
-                            <p>
-                                Nama saya Riza Agustin. Saya seorang programmer yang berpengalaman selama lebih dari 3 tahun. Memiliki kemampuan mengelola dan menguasai bahasa pemrograman PHP, Javascipt, Mysql dan Framework Laravel dan Codeigniter 3.
-                            </p>
-                            <h3 class="">Project</h3>
-                            <div class="row justify-content-center text-left">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img src="https://source.unsplash.com/500x400?hospital" class="card-img-top" alt="project1" />
-                                        <div class="card-body">
-                                            <p class="card-text">
-                                                Skringin Kesehatan Jiwa
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img src="https://source.unsplash.com/500x400?blog" class="card-img-top" alt="project1" />
-                                        <div class="card-body">
-                                            <p class="card-text">
-                                                Website Blog Post
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img src="https://source.unsplash.com/500x400?building" class="card-img-top" alt="project1" />
-                                        <div class="card-body">
-                                            <p class="card-text">
-                                                Sistem Informasi Kepegawaian
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </blockquote>
-                    </div>
-                </div>
+    <!-- Header -->
+    <section class="mt-5" id="header">
+        <div class="container">
+            <div class="jumbotron text-center">
+                <img src="img/fotoriza.PNG" width="200" class="rounded-circle img-thumbnail" />
+                <h1 class="display-4">Riza Agustin</h1>
+                <p class="lead">Junior Programmer</p>
             </div>
         </div>
     </section>
-    <!-- Jumbotron -->
 
-    <!-- <footer class="bg-primary pb-5">
-      <p class="text-center text-white fw-bold">Created with Riza Agustin</p>
-    </footer> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <section class="p-3" id="about">
+        <div class="container text-center">
+            <h1 class="">About Me</h1>
+            <p class="lead">Halo Perkenalkan nama saya Riza Agustin, Saya adalah seorang programmer dengan pengalaman lebih dari 3 tahun dalam pengembangan perangkat lunak. Selama karier saya, saya telah menguasai beberapa teknologi kunci yang penting dalam dunia pengembangan
+                web, termasuk Laravel, Vue.js, dan CodeIgniter. </p>
+            <p>
+            </p>
+        </div>
+    </section>
+
+    <!-- portofolio -->
+    <section class="p-3" id="portofolio">
+        <h1 class="text-center">My Portofolio</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/laptop.jpg" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplikasi Skrining Kesehatan Jiwa</h5>
+                            <span class="badge bg-danger">Laravel</span>
+                            <span class="badge bg-primary">Bootstrap 5</span>
+                            <span class="badge bg-secondary">Jquery</span>
+                            <span class="badge bg-dark">Mysql</span>
+                            <p class="card-text">&nbsp;</p>
+                            <a href="#" class="btn btn-primary">Lihat Porto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/laptop.jpg" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Sekolah</h5>
+                            <span class="badge bg-danger">Laravel</span>
+                            <span class="badge bg-primary">Bootstrap 5</span>
+                            <span class="badge bg-secondary">Vue JS</span>
+                            <span class="badge bg-dark">Mysql</span>
+                            <p class="card-text">&nbsp;</p>
+                            <a href="#" class="btn btn-primary">Lihat Porto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/laptop.jpg" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Toko Online</h5>
+                            <span class="badge bg-danger">Laravel</span>
+                            <span class="badge bg-primary">Bootstrap 5</span>
+                            <span class="badge bg-secondary">Vue JS</span>
+                            <span class="badge bg-dark">Mysql</span>
+                            <p class="card-text">&nbsp;</p>
+                            <a href="#" class="btn btn-primary">Lihat Porto</a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center bg-dark text-white bg- p-3">
+        <p>Created with by. Riza Agustin</p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL " crossorigin="anonymous "></script>
 </body>
 
 </html>
